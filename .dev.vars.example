@@ -1,0 +1,16 @@
+# Copy to .dev.vars for local Wrangler development.
+# Never commit .dev.vars or paste production keys into frontend code.
+GEMINI_API_KEY=
+OPENAI_API_KEY=
+XAI_API_KEY=
+ANTHROPIC_API_KEY=
+
+# Optional provider model overrides:
+GEMINI_MODEL=gemini-2.5-flash
+OPENAI_MODEL=gpt-4o
+XAI_MODEL=grok-3-mini
+ANTHROPIC_MODEL=claude-sonnet-4-5
+
+# Private MEGA bridge credentials (leave blank until your service is deployed).
+MEGA_SERVICE_URL=
+MEGA_SERVICE_TOKEN=
