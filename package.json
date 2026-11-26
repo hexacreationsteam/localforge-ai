@@ -1,17 +1,13 @@
 {
   "name": "localforge-ai",
   "private": true,
-  "version": "3.0.0",
+  "version": "3.1.0",
   "type": "module",
   "scripts": {
     "dev": "vite --host 0.0.0.0",
     "build": "vite build",
     "preview": "vite preview --host 0.0.0.0",
-    "typecheck": "tsc --noEmit",
-    "worker:dev": "wrangler dev",
-    "deploy": "npm run build && wrangler deploy",
-    "deploy:dry": "npm run build && wrangler deploy --dry-run",
-    "mega:dev": "npm --prefix mega-service run start"
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.3.3",
@@ -30,10 +26,7 @@
     "@types/react-dom": "^19.3.0",
     "@types/three": "^0.187.0",
     "autoprefixer": "^10.4.21",
-    "esbuild": "^0.25.0",
     "tailwindcss": "^4.3.3",
-    "typescript": "^7.0.2",
-    "wrangler": "^4.20.0",
-    "@cloudflare/vite-plugin": "^1.7.0"
+    "typescript": "^7.0.2"
   }
 }
